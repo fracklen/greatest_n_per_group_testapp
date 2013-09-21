@@ -1,3 +1,9 @@
+GIT
+  remote: git@github.com:fracklen/greatest_n_per_group.git
+  revision: fd5bb2172681b73b5483948580ee510e8e823821
+  specs:
+    greatest_n_per_group (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -52,6 +58,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25)
     multi_json (1.8.0)
+    pg (0.17.0)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -103,7 +110,9 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  greatest_n_per_group!
   jquery-rails
+  pg
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
   sqlite3

@@ -36,3 +36,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'pg'
+gem 'greatest_n_per_group', :git => 'git@github.com:fracklen/greatest_n_per_group.git'
